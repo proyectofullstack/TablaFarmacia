@@ -1,3 +1,40 @@
-body{
-    background-color: blue;
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Patrick+Hand&family=Quicksand:wght@300&family=Roboto:wght@900&family=Zen+Loop&display=swap');
+
+.titulos{
+    background-color: #25DBAB;
+    height: 30px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.datos{
+    height: 30px;
+    color: #4D4D4D;
+    font-family: 'Roboto', sans-serif;
+}
+
+td{
+    border-bottom-style: groove;
+    height: 20px;
+}
+
+.tabla{
+    width: 80%;
+    margin-top:10px;
+    margin-left: 10%;
+}
+
+.web{
+    width: 50px;
+    align-content: center;
+}
+
+hr{
+    margin-top: 25px;
+    position: relative;
+    top: 6px;
+    border: none;
+    height: 12px;
+    background: #4d4d4d;
+    margin-bottom: 24px;
 }
