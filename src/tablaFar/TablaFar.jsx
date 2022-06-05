@@ -155,7 +155,7 @@ const TablaFar = () => {
             <td>{items.dirección}</td>
             <td>{items.barrio}</td>
             <td>{items.teléfono}</td>
-            <td><a href={items.páginaWeb}><img src={www} alt="" className='web' title='Ir a la página' /></a></td>
+            <td><a href={items.páginaWeb}><img src='https://firebasestorage.googleapis.com/v0/b/vetrinaria-37417.appspot.com/o/www.png?alt=media&token=2b0d7234-ff50-46e6-a897-4f6d59669d5b' alt="" className='web' title='Ir a la página' /></a></td>
           </tr>
         ))}
       </tbody>
